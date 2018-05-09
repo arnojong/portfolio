@@ -1,13 +1,34 @@
+.darker{
+    background-color: #e8e8e8;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+}
+
+h4{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h6{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.darker p{
+    text-align: center;
+}
+
 .jumbotron-main{
     text-align: center;
-    background-image: url("https://i.imgur.com/0IpOPCq.png");
+    background-image: url("img/bannerindex.png");
     background-size: cover;
     padding: 3rem;
 }
 
 .jumbotron-res{
     text-align: center;
-    background-image: url("https://media.renault.nl/wp-content/uploads/2018/03/01-De-nieuwe-Renault-Megane-RS.jpg");
+    background-image: url("img/bannerres.jpg");
     background-size: cover;
     background-position: center;
     padding: 3rem;
@@ -16,7 +37,7 @@
 
 .jumbotron-fey{
     text-align: center;
-    background-image: url("http://grasmeesters.nl/wp-content/uploads/2014/06/DSC_0358.jpg");
+    background-image: url("img/bannerfey.jpg");
     background-size: cover;
     background-position: center;
     padding: 3rem;
@@ -25,7 +46,7 @@
 
 .jumbotron-aqua{
     text-align: center;
-    background-image: url("https://img.alicdn.com/imgextra/i3/TB1L2aIHpXXXXb7apXXXXXXXXXX_!!0-item_pic.jpg ");
+    background-image: url("img/banneraqua.jpg");
     background-size: cover;
     padding: 3rem;
     color: #fff;
@@ -33,7 +54,7 @@
 
 .jumbotron-f1{
     text-align: center;
-    background-image: url("https://cmgstatesmanaustin.files.wordpress.com/2016/10/rgz-f1-usgp-07.jpg");
+    background-image: url("img/bannerf1.jpg");
     background-size: cover;
     background-position: bottom;
     color: #fff;
@@ -42,7 +63,7 @@
 
 .jumbotron-fed{
     text-align: center;
-    background-image: url("https://i.imgur.com/76Yvrpd.jpg");
+    background-image: url("img/bannerfed.jpg");
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -51,11 +72,20 @@
 
 .jumbotron-soc{
     text-align: center;
-    background-image: url("http://newlovewallpapers.in/images/friendship-love-images-and-wallpaper/friendship-love-images-and-wallpaper-9.jpg");
+    background-image: url("img/bannersoc.jpg");
     background-size: cover;
     background-position: center;
     color: #fff;
     padding: 3rem;
+}
+
+.image{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 a {
